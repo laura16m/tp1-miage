@@ -11,7 +11,6 @@ import com.google.inject.Injector;
  */
 public class ClientMail {
 
-	
 	private static boolean production;
 
 	public static void main(String[] args) {
@@ -21,7 +20,4 @@ public class ClientMail {
 		InterpreteurLignecommande cli = injector.getInstance(InterpreteurLignecommande.class);
 		cli.nouveauMail(args);
 	}
-
-	
-
 }
